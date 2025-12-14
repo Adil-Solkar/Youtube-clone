@@ -1,0 +1,52 @@
+nav {
+    padding: .5em .25em;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* hamburger icon and website logo */
+
+.nav-left .menu-icon { 
+    width: 1.15rem;
+    margin: 1.25em;
+}
+
+.nav-left .logo { 
+    width: 8.125rem;
+}
+
+/* Search */
+
+.nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 1em;
+    padding: .5em .75em;
+    border-radius: 1.25em;
+}
+
+.nav-middle .search-box input{ 
+    width: 25rem;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img { 
+    width: 1rem;
+}
+
+/* user Info in navbar */
+
+.nav-right img{ 
+    width: 1.25rem;
+    margin-right: 1.25em;
+}
+
+.nav-right .user-icon { 
+    width: 2rem;
+    border-radius: 50%;
+} 
