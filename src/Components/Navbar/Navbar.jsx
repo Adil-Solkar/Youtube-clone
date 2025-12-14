@@ -8,14 +8,16 @@ import more_icon from '../../assets/more.png'
 import notification_icon from '../../assets/notification.png'
 import profile_icon from '../../assets/jack.png'
 
-function Navbar() {
+function Navbar({setShowSidebar}) {
+    
   return (
     <nav className='flex-div'>
         <div className='nav-left flex-div'>
             <img 
                 className='menu-icon' 
                 src={menu_icon} 
-                alt='hamburger menu' 
+                alt='hamburger menu'
+                onClick={setShowSidebar} 
             />
             <img 
                 className='logo' 

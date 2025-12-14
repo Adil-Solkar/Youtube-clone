@@ -1,11 +1,16 @@
 import React from 'react'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import './Home.css'
+import Feed from '../../Components/Feed/Feed'
 
-function Home() {
+function Home({showSidebar}) {
   return (
     <>
-      <Sidebar />
+      {/* prop drilling */}
+      <Sidebar showSidebar={showSidebar}/>
+      <div className={`container ${showSidebar ? "" : "large-container" }`}>
+        <Feed />
+      </div>
     </>
   )
 }

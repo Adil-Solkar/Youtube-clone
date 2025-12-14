@@ -15,9 +15,9 @@ import tom from '../../assets/tom.png'
 import meghan from '../../assets/megan.png'
 import cameron from '../../assets/cameron.png'
 
-function Sidebar() {
+function Sidebar({showSidebar}) {
   return (
-    <div className='sidebar'>
+    <aside className={`sidebar ${showSidebar?"":"small-sidebar"}`}>
       <div className="shortcut-links">
         <div className="side-link">
           <img src={home} alt="home icon"/>
@@ -57,6 +57,7 @@ function Sidebar() {
         </div>
         <hr />
       </div>
+
       <div className="subscribed-list">
         <h3>Subscribed</h3>
         <div className="side-link">
@@ -83,8 +84,8 @@ function Sidebar() {
         {/* if there are more components then add scroll to
            side bar which it currently doesnot do*/}
 
-           
-        {/* <div className="side-link">
+
+         {/* <div className="side-link">
           <img src={cameron} alt="random profile image" />
           <p>Cameron</p>
         </div>
@@ -127,10 +128,10 @@ function Sidebar() {
         <div className="side-link">
           <img src={cameron} alt="random profile image" />
           <p>Cameron</p>
-        </div> */}
+        </div>   */}
 
       </div>
-    </div>
+    </aside>
   )
 }
 

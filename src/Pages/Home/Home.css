@@ -1,0 +1,11 @@
+.container {
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 1.15em;
+    padding-bottom: 1.15em;
+}
+
+.large-container {
+    padding-left: 8%;
+}
