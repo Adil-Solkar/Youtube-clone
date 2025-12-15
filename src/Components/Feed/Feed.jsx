@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import tumbnail1 from '../../assets/thumbnail1.png'
 import tumbnail2 from '../../assets/thumbnail2.png'
 import tumbnail3 from '../../assets/thumbnail3.png'
@@ -11,12 +12,12 @@ import './Feed.css'
 function Feed() {
   return (
     <div className='feed'>
-        <div className='card'>
+        <Link to={`video/20/4512`} className='card'>
             <img src={tumbnail1} alt="water mountains and boats"/>
             <h2>Best channel to learn</h2>
             <h3>GreatStack</h3>
             <p>15k views &bull; 2 days ago</p>
-        </div>
+        </Link>
         <div className='card'>
             <img src={tumbnail2} alt="water mountains and boats"/>
             <h2>Best channel to learn</h2>

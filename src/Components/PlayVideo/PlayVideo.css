@@ -1,0 +1,146 @@
+.play-video { 
+    flex-basis: 69%;
+}
+
+/* video container */
+.play-video video {
+    width: 100%;
+}
+
+/* video title */
+.play-video h3 { 
+    margin-top: .7em;   
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+
+/* video info */
+.play-video-info { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    font-size: .9rem;
+    color: #5a5a5a;
+}
+
+.play-video-info img { 
+    width: 1.25rem;
+    margin-right: .5em;
+}
+
+.play-video-info span { 
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.play-video hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: .7em 0;
+}
+
+/* video publisher */
+
+.publisher { 
+    display: flex;
+    align-items: center;
+    margin-top: 1.25em;
+}
+
+.publisher div { 
+    flex: 1;
+    line-height: 1.2;
+}
+
+.publisher img { 
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.publisher div p { 
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.publisher div span { 
+    font-size: .8125rem;
+    color: #5a5a5a;
+}
+
+.publisher button { 
+    background: red;
+    color: #fff;
+    padding: .5em 1.75em;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+}
+
+/* video description */
+
+.vid-description { 
+    padding-left: 3.4375em;
+    margin: 1em 0;
+}
+
+.vid-description p { 
+    font-size: .9rem;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+
+.vid-description h4 { 
+    font-size: .9rem;
+    color: #5a5a5a;
+    margin-top: 1em;
+}
+
+/* comment section */
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    /* border: 1px solid red; */
+}
+
+.comment img { 
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment h3 { 
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.comment h3 span { 
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.comment-action { 
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.comment-action img { 
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.comment-action span {
+    margin-right: 20px;
+    color: #5a5a5a;
+}
